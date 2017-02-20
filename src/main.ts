@@ -4,13 +4,6 @@ import 'angular-ui-router';
 import { AppComponent }   from "./components/app.component";
 import { HomeComponent }   from "./components/home.component";
 
-
-interface Istate {
-    name: string,
-    url: string,
-    component: string
-}
-
 module App {
     
 	angular.module('app', ["ui.router"])
